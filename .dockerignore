@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.env
+.env.*.local
+scraper/.venv
+scraper/__pycache__
+**/__pycache__
+*.py[cod]
+coverage
+dist
+.vscode
+.idea
