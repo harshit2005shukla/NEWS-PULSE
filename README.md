@@ -1,3 +1,22 @@
+# NEWS PULSE
+
+Topic-Clustered News Timeline & Intelligence Engine
+
+🌐 **Live Demo:** https://newspulse-production-de0f.up.railway.app/
+
+## Features
+
+- 📰 Multi-source news ingestion
+- 🧠 Topic clustering
+- 📊 Topic activity timeline
+- 🔎 Topic and keyword search
+- 📡 Multiple news sources
+- 🗄️ PostgreSQL database
+- 🐍 Python scraper
+- ⚡ Next.js dashboard
+
+
+
 # News Pulse — Topic-Clustered News Timeline
 
 **News Pulse** is a complete, production-grade news intelligence system that collects articles from multiple public RSS feeds, extracts full article content, normalizes schemas, performs URL and content-hash deduplication, groups related articles into topic clusters using NLP keyword overlap and TF-IDF similarity, and renders them onto an interactive time-based timeline.
