@@ -22,6 +22,11 @@ RUN pip3 install --no-cache-dir --break-system-packages -r scraper/requirements.
 # Copy application source.
 COPY . .
 
+# Make DATABASE_URL available at build time so Next.js can statically
+# analyze routes that import the database client.
+ARG DATABASE_URL
+ENV DATABASE_URL=$DATABASE_URL
+
 RUN npm run build
 
 COPY scripts/docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
